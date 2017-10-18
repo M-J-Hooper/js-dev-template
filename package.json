@@ -1,0 +1,32 @@
+{
+  "name": "",
+  "version": "0.1.0",
+  "description": "",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/M-J-Hooper/xxx.git"
+  },
+  "keywords": [],
+  "author": "Matt Hooper <matthewjhooper94@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/M-J-Hooper/xxx/issues"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "gulp": "^3.9.1",
+    "gulp-beautify": "^2.0.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-mocha": "^4.3.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "mocha": "^3.5.0"
+  },
+  "files": [],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  }
+}
